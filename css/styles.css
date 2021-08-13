@@ -1,1 +1,64 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --button-bg-color: #f5f4fa;
+  --background-color: #2f303a;
+}
+body {
+  background-color: #ffffff;
+  color: var(--primiry-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.Web-header {
+  color: var(--accent-color);
+}
+.color-logo {
+  color: var(--primary-text-color);
+}
+.list {
+  color: var(--primary-text-color);
+}
+.link {
+  color: var(--primiry-text-color);
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+.link-mail {
+  color: var(--secondary-text-color);
+}
+.link-mail:hover,
+.link-mail:focus {
+  color: var(--accent-color);
+}
+.main-title {
+  text-align: center;
+  background-color: var(--background-color);
+  color: var(--white-color);
+}
+.button-main {
+  background-color: var(--accent-color);
+  color: var(--button-bg-color);
+}
+.button-main:hover,
+.button-main:focus {
+  background-color: var(--button-bg-color);
+  color: var(--primary-text-color);
+}
 
+.originality-exp {
+  color: var(--secondary-text-color);
+}
+.profession-list {
+  color: var(--secondary-text-color);
+}
